@@ -29,4 +29,15 @@
       </snapshots>
     </repository>
   </repositories>
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub</name>
+      <url>https://maven.pkg.github.com/julianeubert00/my-prose-app</url>
+    </repository>
+    <snapshotRepository>
+      <id>github</id>
+      <url>https://maven.pkg.github.com/julianeubert00/my-prose-app</url>
+    </snapshotRepository>
+  </distributionManagement>
 </project>

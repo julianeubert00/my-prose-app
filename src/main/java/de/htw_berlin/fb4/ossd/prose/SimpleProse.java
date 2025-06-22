@@ -5,4 +5,12 @@ public class SimpleProse implements Prose{
     public String get() {
         return null;
     }
+
+    public String getText(SimpleSentence[] sentences) {
+        StringBuilder text = new StringBuilder();
+        for (SimpleSentence sentence : sentences) {
+            text.append(sentence.get()).append(" ");
+        }
+        return text.toString().trim();
+    }
 }

@@ -17,7 +17,7 @@
     <dependency>
       <groupId>de.htw_berlin.fb4.ossd</groupId>
       <artifactId>prose_builder</artifactId>
-      <version>1.0.0</version>
+      <version>1.0-0</version>
     </dependency>
   </dependencies>
   <repositories>
